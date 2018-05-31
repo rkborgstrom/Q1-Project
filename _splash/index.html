@@ -50,50 +50,41 @@
             </form>
         </section>
     </section>
-    <section id="weather_widget">
-        <section id="humidity_widget" value=""></section>
-        <section id="pressure_widget" value=""></section>
-        <label>Current Temperature</label><section id="temp_widget" value=""></section>
-        <section id="tempMax_widget" value=""></section>
-        <section id="tempMin_widget" value=""></section>
-    </section>
 
 
-<section class="weather">
-    <form>
-        <section class="input-field">
-            <input type="text" placeholder="Weather Search (e.g. Chicago, Illinois)" id="search" name="search" />
+
+    <section class="weather">
+        <form>
+            <section class="input-field">
+                <input type="text" placeholder="Weather Search (e.g. Chicago, Illinois)" id="search" name="search" value="Chicago, Illinois"
+                />
+            </section>
+        </form>
+        <button class="btn-large waves-effect waves-light" type="submit" name="action" id="searchButton">
+            Search
+        </button>
+       
+            <section class="weather-container">
+                <section id="weather_widget">
+                    <!-- <fieldset class="weather-fieldset"> -->
+                    <section id="name_widget" class="name_widget"  value=""></section>
+                <!-- <section class="all-temps"> -->
+                    <section id="temp_widget" class="temp_widget" value=""></section>
+                    <section id="tempMax_widget" class="tempMax_widget" value=""></section>
+                    <section id="tempMin_widget" class="tempMin_widget" value=""></section>
+                <!-- </section> -->
+                    <section id="humidity_widget" class="humidity_widget" value=""></section>
+                    <section id="pressure_widget" class="pressure_widget" value=""></section>
+                    <section id="description_widget" class="description_widget" value=""></section>
+                    <section id="icon_widget" class="icon_widget" value=""></section>
+                    <section id="main_widget" class="main_widget" value=""></section>
+                    
+                </section>
+            </section>
         </section>
-    </form>
-    <button class="btn-large waves-effect waves-light" type="submit" name="action" id="searchButton">
-        Search
-    </button>
-
-    <section id="weather-container">
-
-
-        
-
-    </section>
-</section>
-
 
 
     <br></br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="script.js"></script>
     <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
@@ -113,8 +104,8 @@
 
             <textarea placeholder='Message'></textarea>
             <button class="btn-large waves-effect waves-light" type="submit" name="action" id="searchButton">
-                    Send
-                </button>
+                Send
+            </button>
         </form>
     </footer>
 </section>
