@@ -16,20 +16,23 @@ body {
     float: left;
 }
 
-.weather {
-    height: 250px;
-    padding-left: 40px;
-}
-
-#weather-container {
+.weather-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.7em;
+    font-size: 1.6em;
     color: white;
-    flex-wrap: wrap;
-    width: 50%;
-    
+    width: 100%;
+}
+
+.name_widget {
+    color: #caa39a;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.weather-fieldset {
+    padding-left: 4em;
 }
 
 a:link,
