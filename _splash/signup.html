@@ -5,6 +5,9 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
@@ -20,9 +23,13 @@
             <a href="#about">About Us</a>
         </li>
     </ul>
+    <br></br>
 
-    <fieldset>
-        <h3>I am offering: (check all that apply) </h3>
+    <br></br>
+<section class="forms-container">
+<section class="offering">
+
+        <h4>I am offering: (check all that apply) </h4>
         <input id="pool" type="checkbox" name="pool" value="">
         <label for="pool">Pool</label>
         <br></br>
@@ -34,18 +41,18 @@
         <input id="Hot Tub" type="checkbox" name="Hot Tub" value="">
         <label for="Hot Tub">Hot Tub</label>
         <br></br>
-    </fieldset>
 
 
-    <fieldset>
-        <h3>Describe Pool</h3>
+
+    <section class="describe">
+        <h4>Describe Pool</h4>
         <label>Deepest point: (In feet)</label>
         <input type="number" name="deep" min=0>
         <br></br>
         <label>Shallowest point: (In feet)</label>
         <input type="number" name="deep" min=0>
 
-        <h4>Pool Type</h4>
+        <h5>Pool Type</h5>
         <input id="inground" type="radio" name="size" value="">
         <label for="inground">Inground</label>
         <br></br>
@@ -58,8 +65,8 @@
     </fieldset>
 
 
-    <fieldset>
-        <h3>Other Amenities</h3>
+    <section class="other">
+        <h4>Other Amenities</h4>
         <input id="grill" type="checkbox" name="grill" value="">
         <label for="grill">BBQ Grill</label>
         <br></br>
@@ -113,14 +120,14 @@
         <br></br>
     </fieldset>
 
-
+</section>
 
 
 
 
     <button name="button">Submit</button>
 
-
+</section>
 
     <br></br>
 
