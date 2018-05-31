@@ -3,27 +3,37 @@ body {
     background-color: #4e5d98;
 }
 
-
 .buttons {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden; 
+    overflow: hidden;
     font-size: 1.4em;
+    opacity: .8em;
 }
 
+.account-container {
+    float: left;
+}
 
-.weather-widget{
+.weather {
+    height: 250px;
+    padding-left: 40px;
+}
+
+#weather-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    font-size: 1.7em;
+    color: white;
+    flex-wrap: wrap;
+    width: 50%;
+    
 }
 
-
-
-a:link,a:visited{
+a:link,
+a:visited {
     display: block;
     color: white;
     background-color: #4e5d98;
@@ -34,42 +44,16 @@ a:link,a:visited{
 }
 
 li {
-    float:left;
+    float: left;
 }
-
-
-/* /* a:hover,a:active {
-    background-color: #e0b372;
-} 
-
 
 .header-container {
     display: flex;
     justify-content: start;
-    /* adjusts text left/right */
-    /* background-color: #8ed9fa;
-    align-items: center; */
-    /* adjusts text top/bottom */
-    /* height: 100px;
+    background-color: #8ed9fa;
+    align-items: center;
+    height: 100px;
     width: 100%;
-}
-
-
-
-.nav-container {
-    display: flex;
-}
-
-#button1 {
-    padding-left: 12em; 
-} */ 
-
-
-header {
-    padding-left: 50px;
-    font-size: 3em;
-    color: purple;
-    opacity: 0.8;
 }
 
 .picture-container {
@@ -77,39 +61,16 @@ header {
     margin: auto;
 }
 
-/* img {
-    width: 50%;
-    height: auto;
-} */
-
-/* .forms-container {
-   
-        position: absolute;
-        right: 0;
-        margin: 20px;
-        max-width: 300px;
-        padding: 16px;
-        background-color: white;
-      
-} */
-
-
-  * {
-    box-sizing: border-box;
-  }
-  
-  .pool-pic {
-  
-    background-image: url("/Users/ryanborgstrom 1/_galvanizeprojects/_splash/Images/Lux.jpg");
-  
+.pool-pic {
+    background-image: url("./Images/Pool\ Pic.png");
     /* allows image to scale within the container */
     min-height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
-  .container {
+}
+
+.container {
     position: absolute;
     right: 0;
     margin: 10px;
@@ -117,8 +78,16 @@ header {
     padding: 16px;
     background-color: #9dcaf4;
     opacity: .9;
-  }
-  
+    color: white;
+}
 
-
-  
+.footer-container {
+    display: flex;
+    color: #4e5d98;
+    justify-content: left;
+    align-items: center;
+    height: 350px;
+    background-color: #32a39d;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
