@@ -1,6 +1,18 @@
 body {
     font-family: helvetica;
-    background-color: #4e5d98;
+    background: linear-gradient(-120deg, rgba(156, 202, 244, 1) 12%, rgba(78, 92, 152, 1) 50%);
+}
+
+#searchButton {
+    background-color: #4f968b;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+
+.weather {
+    padding-left: 100px;
 }
 
 .buttons {
@@ -12,9 +24,13 @@ body {
     opacity: .8em;
 }
 
+
 .account-container {
     float: left;
+    height: 1000px;
 }
+
+
 
 .weather-container {
     display: flex;
@@ -23,16 +39,22 @@ body {
     font-size: 1.6em;
     color: white;
     width: 100%;
+    padding-right: 300px;
 }
 
 .name_widget {
-    color: #caa39a;
+    color: tan;
     font-size: 3em;
     text-decoration: underline;
 }
 
+.icon_widget {
+    display: flex;
+    justify-content: baseline;
+}
+
 .weather-fieldset {
-    padding-left: 4em;
+    padding-left: 100px;
 }
 
 a:link,
@@ -45,6 +67,7 @@ a:visited {
     padding: 4px;
     text-decoration: none;
 }
+
 
 li {
     float: left;
@@ -73,6 +96,9 @@ li {
     background-size: cover;
 }
 
+
+
+
 .container {
     position: absolute;
     right: 0;
@@ -89,8 +115,17 @@ li {
     color: #4e5d98;
     justify-content: left;
     align-items: center;
-    height: 350px;
-    background-color: #32a39d;
-    padding-left: 40px;
+    height: 380px;
+    background-color:black;
+    opacity: 0.5;
+    padding-left: 100px;
     padding-bottom: 10px;
+}
+
+
+
+.footer2 {
+display: flex;
+padding-left: 100px;
+padding-top: 100px;
 }
