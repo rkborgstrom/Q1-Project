@@ -8,13 +8,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 </head>
 
 <body>
 
     <ul class="buttons">
         <li>
-            <a href="#home">Home</a>
+            <a href="#home" id="home_btn">Home</a>
         </li>
         <li>
             <a href="index2.html">List A Pool</a>
@@ -50,38 +51,38 @@
             </form>
         </section>
     </section>
-
-
-
     <section class="weather">
         <form>
             <section class="input-field">
-                <input type="text" placeholder="Weather Search (e.g. Chicago, Illinois)" id="search" name="search" value="Chicago, Illinois"
-                />
+                <input type="text" placeholder="Weather Search (e.g. Chicago, Illinois)" id="search" name="search" value="" />
             </section>
         </form>
         <button class="btn-large waves-effect waves-light" type="submit" name="action" id="searchButton">
-            Search
+            Find Weather
         </button>
-       
-            <section class="weather-container">
-                <section id="weather_widget">
-                    <!-- <fieldset class="weather-fieldset"> -->
-                    <section id="name_widget" class="name_widget"  value=""></section>
+
+        <section class="weather-container">
+            <section class="icon_widget" value="">
+                <img id="icon_widget" src="" />
+            </section>
+            <section id="weather_widget">
+
+
+                <section id="name_widget" class="name_widget" value=""></section>
                 <!-- <section class="all-temps"> -->
-                    <section id="temp_widget" class="temp_widget" value=""></section>
-                    <section id="tempMax_widget" class="tempMax_widget" value=""></section>
-                    <section id="tempMin_widget" class="tempMin_widget" value=""></section>
+                <section id="temp_widget" class="temp_widget" value=""></section>
+                <section id="tempMax_widget" class="tempMax_widget" value=""></section>
+                <section id="tempMin_widget" class="tempMin_widget" value=""></section>
                 <!-- </section> -->
-                    <section id="humidity_widget" class="humidity_widget" value=""></section>
-                    <section id="pressure_widget" class="pressure_widget" value=""></section>
-                    <section id="description_widget" class="description_widget" value=""></section>
-                    <section id="icon_widget" class="icon_widget" value=""></section>
-                    <section id="main_widget" class="main_widget" value=""></section>
-                    
-                </section>
+                <section id="humidity_widget" class="humidity_widget" value=""></section>
+                <section id="pressure_widget" class="pressure_widget" value=""></section>
+                <section id="description_widget" class="description_widget" value=""></section>
+
+                <section id="main_widget" class="main_widget" value=""></section>
+
             </section>
         </section>
+    </section>
 
 
     <br></br>
