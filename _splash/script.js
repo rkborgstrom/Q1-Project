@@ -64,7 +64,7 @@ searchButton.addEventListener('keyup', function(event) {
                     tempMax_widget.innerHTML = (` Day High: ${tempMax}&#8457;`);  
                     tempMin_widget.innerHTML = (` Day Low: ${tempMin}&#8457;`);
                     humidity_widget.innerHTML = (` Humidity: ${humidity}&#37;`);
-                    icon_widget.innerHTML = (`${icon}`);
+                    icon_widget.setAttribute('src', `/Images/${icon}.png`); 
                     description_widget.innerHTML = (`${description}`);
                     // main_widget.innerHTML = (`${main}`);
 
